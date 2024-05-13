@@ -2,7 +2,7 @@ import css from "./Contact.module.css";
 import { TbPhoneFilled } from "react-icons/tb";
 import { TbUserFilled } from "react-icons/tb";
 import { useDispatch } from "react-redux";
-import { deleteContact } from "../../redux/contactsSlice";
+import { deleteContact } from "../../redux/contactsOps";
 
 const Contact = ({ id, name, number }) => {
   const dispatch = useDispatch();
